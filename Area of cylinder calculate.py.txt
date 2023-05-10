@@ -1,0 +1,21 @@
+PI = 22/7 
+radius = 6
+height = 4
+Area = (2*PI*height *radius) + (2 *(22/7)*radius*radius)
+A=int(Area *100)/100.0
+print(A)
+volume = PI * radius*radius*height 
+print(volume)
+a=int(volume *100)/100.0
+print(a)
+.....................
+PI = 22/7 
+radius = 6
+height = 4
+surface_area = 2*PI*height*radius + 2*PI*radius*radius
+
+print("Surface area: {:.2f}".format(surface_area))
+
+volume = PI*radius*radius*height 
+
+print("Volume: {:.2f}".format(volume))
