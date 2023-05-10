@@ -1,0 +1,7 @@
+tons = 1
+unit_cost = 1
+total = 10
+cost = tons * unit_cost * total + 0.5
+print("The total cost is:", cost)
+
+....................
