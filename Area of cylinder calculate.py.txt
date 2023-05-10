@@ -17,5 +17,4 @@ surface_area = 2*PI*height*radius + 2*PI*radius*radius
 print("Surface area: {:.2f}".format(surface_area))
 
 volume = PI*radius*radius*height 
-
 print("Volume: {:.2f}".format(volume))
